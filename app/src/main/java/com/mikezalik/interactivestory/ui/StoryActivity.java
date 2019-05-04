@@ -34,10 +34,10 @@ public class StoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
 
-        storyImageView = (ImageView)findViewById(R.id.storyImageView);
-        storyTextView = (TextView)findViewById(R.id.storyTextView);
-        choice1Button = (Button)findViewById(R.id.choice1button);
-        choice2Button = (Button)findViewById(R.id.choice2Button);
+        storyImageView = findViewById(R.id.storyImageView);
+        storyTextView = findViewById(R.id.storyTextView);
+        choice1Button = findViewById(R.id.choice1button);
+        choice2Button = findViewById(R.id.choice2Button);
 
 
         Intent intent = getIntent();
@@ -73,9 +73,7 @@ public class StoryActivity extends AppCompatActivity {
             loadButtons(page);
 
         }
-
-
-
+        
     }
 
     private void loadButtons(final Page page) {
