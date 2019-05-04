@@ -38,8 +38,7 @@ public class StoryActivity extends AppCompatActivity {
         storyTextView = findViewById(R.id.storyTextView);
         choice1Button = findViewById(R.id.choice1button);
         choice2Button = findViewById(R.id.choice2Button);
-
-
+        
         Intent intent = getIntent();
         name = intent.getStringExtra("name");
 
