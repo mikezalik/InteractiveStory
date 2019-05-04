@@ -73,7 +73,7 @@ public class StoryActivity extends AppCompatActivity {
             loadButtons(page);
 
         }
-        
+
     }
 
     private void loadButtons(final Page page) {

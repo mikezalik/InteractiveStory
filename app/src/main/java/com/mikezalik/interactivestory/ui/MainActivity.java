@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startStory(name);
             }
         });
-
-
-        }
+    }
 
     @Override
     protected void onResume() {
@@ -46,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         String key = resources.getString(R.string.key_name);
         intent.putExtra(key, name);
         startActivity(intent);
-
 
     }
 }
