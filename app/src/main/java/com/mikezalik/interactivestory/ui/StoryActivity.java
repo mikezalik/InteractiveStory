@@ -54,7 +54,6 @@ public class StoryActivity extends AppCompatActivity {
         Drawable image = ContextCompat.getDrawable(this, page.getImageId());
         storyImageView.setImageDrawable(image);
 
-
         String pageText = getString(page.getTextId());
         // Add name if placeholder is included, won't add if not.
         pageText = String.format(pageText, name);
@@ -71,9 +70,7 @@ public class StoryActivity extends AppCompatActivity {
             });
         } else {
             loadButtons(page);
-
         }
-
     }
 
     private void loadButtons(final Page page) {
@@ -97,7 +94,6 @@ public class StoryActivity extends AppCompatActivity {
             }
         });
     }
-
 
     @Override
     public void onBackPressed() {
