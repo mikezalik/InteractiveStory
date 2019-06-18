@@ -1,6 +1,5 @@
 package com.mikezalik.interactivestory.ui;
 
-
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
