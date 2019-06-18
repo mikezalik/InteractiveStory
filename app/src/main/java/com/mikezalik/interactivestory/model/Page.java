@@ -29,7 +29,6 @@ public class Page {
     }
 
     public int getImageId() {
-
         return imageId;
     }
 
