@@ -102,6 +102,5 @@ public class StoryActivity extends AppCompatActivity {
         } else {
             loadPage(pageStack.pop());
         }
-
-        }
+    }
 }
